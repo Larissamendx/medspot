@@ -1,0 +1,121 @@
+.containerSearch {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerSearch .nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerSearch .filter {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.containerSearch .filter1 {
+  display: flex;
+}
+
+.containerSearch .filter1 button {
+  width: 125px;
+  height: 48px;
+  font-size: 15px;
+  font-weight: 300;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 1rem;
+  text-align: center;
+  cursor: pointer;
+  background: var(--color-secondary-100); 
+}
+
+.containerSearch button.btnLeft,
+.containerSearch button.btnLeftActive {
+  border-radius: 27px 0 0 27px;
+  border-right: 1px solid var(--text);
+}
+
+.containerSearch button.btnLeftActive,
+.containerSearch button.btnRightActive {
+  background: var(--gray-dark);
+  box-shadow: none;
+}
+
+.containerSearch button.btnRight,
+.containerSearch button.btnRightActive {
+  border-radius: 0 27px 27px 0;
+}
+
+.containerSearch .filter2 {
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 11px;
+  row-gap: 11px;
+}
+
+.containerSearch .filter2 button {
+  width: 102px;
+  height: 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.containerSearch .filter2 button:hover {
+  background: var(--gray-dark);
+}
+
+.containerSearch #search .localization {
+  justify-content: center;
+}
+.containerSearch .localization {
+  width: 90%;
+  height: 48px;
+
+  background: var(--color-secondary-100);
+  box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerSearch .localization input {
+  background: var(--color-secondary-100);
+  color: var(--white);
+  border-radius: inherit;
+  margin-left: 20px;
+  width: 400px;
+}
+
+.containerSearch .localization .txtBusca {
+  background: none;
+  border: none;
+  outline: none;
+  color: var(--white);
+}
+
+.containerSearch .localization img {
+  margin-right: 10px;
+  width: 1.5em;
+  height: 1.5em;
+  margin-top: 11px;
+}
+@media screen and (max-width: 400px) {
+  .Nav {
+    width: 125vw;
+  }
+  }
+  @media screen and (max-width: 500px) {
+  .containerSearch .filter {
+    margin-left: 5em;
+  }
+}

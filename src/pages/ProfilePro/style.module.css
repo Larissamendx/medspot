@@ -1,0 +1,22 @@
+.containerProfilePro {
+    width: 100%;
+    height: 100%;
+}
+
+.containerProfilePro main {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+}
+
+.containerProfilePro h2 {
+    font-weight: 500;
+}
+@media screen and (max-width: 720px) {
+    .containerProfilePro main {
+        flex-direction: column;
+        display: flex;
+    align-items: center;
+    }
+}

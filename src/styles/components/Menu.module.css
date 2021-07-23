@@ -1,0 +1,49 @@
+.menu {
+  position: relative;
+}
+.menu a,
+.menu .dropbtn {
+  display: inline-block;
+  color: var(--white);
+  text-align: center;
+  text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.menu .dropContent {
+  background-color: var(--menu-light);
+  width: 387px;
+  height: 352px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 42px;
+  z-index: 2;
+  padding: 40px;
+}
+
+.menu .dropContent a {
+  color: black;
+  font-weight: 600;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  text-align: left;
+  background: var(--menu);
+  margin-bottom: 17px;
+  border-radius: 5px;
+}
+
+.menu .dropContent img {
+  margin-right: 22px;
+}
+
+.menu .dropContent a:hover {
+  background-color: #f1f1f1;
+}
+@media screen and (max-width: 550px) {
+  .menu .dropContent {
+    width: 20em;
+  }
+}

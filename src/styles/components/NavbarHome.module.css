@@ -1,0 +1,15 @@
+.navbarHome {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background: linear-gradient(
+    180deg,
+    var(--color-primary-800) 0%,
+    var(--color-secondary-300) 219.34%
+  );
+}
+
+.navbarHome .logo {
+  margin: 0 auto;
+  padding-bottom: 28px;
+}

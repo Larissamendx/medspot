@@ -1,0 +1,36 @@
+.hour {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    width: 544px;
+    height: 88px;
+    background: var(--color-secondary-80);
+    border-radius: 10px;
+}
+
+.profile .photo {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin: 0 1rem;
+}
+
+.profile .photo img {
+    width: 56px;
+    height: 56px;
+}
+
+.hour span {
+    display: flex;
+    align-items: center;
+}
+
+.hour span img{
+    margin-right: 0.5rem;
+}

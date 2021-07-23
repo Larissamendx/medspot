@@ -1,0 +1,59 @@
+.containerHorario {
+    height: 362px;
+    width: 358px;
+    background: var(--color-primary-100);
+    color: #fff;
+    border-radius: 20px;
+}
+
+.containerHorario .data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--color-primary-80);
+    padding: 1rem 0;
+    border-radius: 20px 20px 0 0;
+}
+
+.containerHorario .hora {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    font-size: 2rem;
+    overflow-y: scroll;
+    object-fit: cover;
+}
+
+.containerHorario ::-webkit-scrollbar-track {
+    background-color: var(--color-primary-80);
+}
+.containerHorario ::-webkit-scrollbar {
+    width: 7px;
+    background: #EEE9FE;
+}
+.containerHorario ::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+    border-radius: 20px;
+}
+
+.containerHorario .hora span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    width: 300px;
+    background: var(--color-primary-80);
+    margin-bottom: 1rem;
+    border-radius: 9px;
+}
+
+.containerHorario .hora span.active {
+    background-color: var(--horario-active);
+}
+
+.containerHorario .hora span:first-child {
+    margin-top: 2rem;
+}

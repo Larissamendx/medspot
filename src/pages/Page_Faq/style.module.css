@@ -1,0 +1,13 @@
+.pesquisa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -4em;
+}
+
+.containerFaq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+}

@@ -1,0 +1,106 @@
+.containerDadosMedico {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerDadosMedico .back {
+  position: absolute;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.containerDadosMedico .photo {
+  position: relative;
+}
+
+.containerDadosMedico form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerDadosMedico input {
+  width: 100%;
+  width: 660px;
+  height: 54px;
+  margin-top: 10px;
+  padding-left: 3.5rem;
+  background: var(--gray);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 27px;
+}
+
+.containerDadosMedico input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.containerDadosMedico input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.containerDadosMedico p.erro {
+  color: var(--erro);
+  font-size: 0.9rem;
+  margin: 0.3rem 0 0 1rem;
+}
+
+
+.containerDadosMedico .inputWithIcon {
+  position: relative;
+}
+
+.containerDadosMedico .inputWithIcon img {
+  position: absolute;
+  left: 0;
+  top: 17px;
+  padding: 10px 17px;
+}
+
+.containerDadosMedico > div{
+  position: relative;
+}
+
+.containerDadosMedico span img {
+  position: absolute;
+  bottom: 8px;
+  right: 13px;
+  cursor: pointer;
+}
+
+.containerDadosMedico span input[type="file"] {
+  display: none;
+}
+
+.containerDadosMedico button {
+  width: 191px;
+  height: 54px;
+  border-radius: 27px;
+  font-size: 1rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 2rem;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.containerDadosMedico button:hover {
+  background: var(--gray-light-dark);
+}
+
+/* RESPONSIVO */
+
+@media screen and (max-width: 760px) {
+  .containerDadosMedico form {
+    width: 90%;
+  }
+
+  .containerDadosMedico .inputWithIcon {
+    width: 100%;
+  }
+
+  .containerDadosMedico input {
+    width: 100%;
+  }
+}

@@ -1,0 +1,115 @@
+.containerLoginPro {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  padding: 20px;
+}
+
+.containerLoginPro .back {
+  align-self: flex-start;
+  position: absolute;
+  top: 15px;
+  cursor: pointer;
+}
+
+.containerLoginPro .logo {
+  width: 100%;
+  max-width: 323px;
+}
+
+.containerLoginPro p.erro {
+  color: var(--erro);
+  font-size: 0.9rem;
+  margin: 0.3rem 0 0 1rem;
+}
+
+.containerLoginPro form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.containerLoginPro form input {
+  background: var(--gray);
+  color: var(--text);
+  width: 430px;
+  height: 40px;
+  border-radius: 27px;
+  margin-top: 0.5rem;
+  padding-left: 2.2rem;
+}
+
+.containerLoginPro .inputWithIcon {
+  position: relative;
+}
+
+.containerLoginPro .inputWithIcon img {
+  position: absolute;
+  left: 9px;
+  top: 19px;
+  width: 16px;
+}
+
+.containerLoginPro form button.confirm {
+  width: 141px;
+}
+
+.containerLoginPro form button {
+  width: 102px;
+  height: 39px;
+  border-radius: 20px;
+  background: var(--color-secondary-800);
+  font-size: 1rem;
+  margin-top: 3rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.containerLoginPro form button:hover {
+  background: rgba(188, 15, 77, 0.8);
+}
+
+.containerLoginPro form a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 39px;
+  border-radius: 20px;
+  background: var(--color-primary-800);
+  margin-top: 0.5rem;
+  text-align: center;
+  transition: background 0.2s;
+}
+
+.containerLoginPro form a:hover {
+  filter: brightness(0.9);
+}
+
+.containerLoginPro > a {
+  margin-top: 1rem;
+}
+
+/* RESPONSIVO */
+@media screen and (max-width: 490px) {
+  .containerLoginPro .logo {
+    width: 70%;
+  }
+
+  .containerLoginPro form {
+    width: 90%;
+    margin-top: 2rem;
+  }
+
+  .containerLoginPro .inputWithIcon {
+    width: 100%;
+  }
+
+  .containerLoginPro form input {
+    width: 100%;
+  }
+}

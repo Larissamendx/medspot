@@ -1,0 +1,23 @@
+.containerCreateProfilePro {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+}
+
+.containerCreateProfilePro .back {
+  position: absolute;
+  align-self: flex-start;
+  z-index: 1;
+}
+
+.containerCreateProfilePro > div {
+  position: relative;
+}
+
+.containerCreateProfilePro span img {
+  position: absolute;
+  bottom: 8px;
+  right: 13px;
+  cursor: pointer;
+}

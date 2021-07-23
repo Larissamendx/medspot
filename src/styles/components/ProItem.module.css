@@ -1,0 +1,42 @@
+.containerProItem {
+    width: 871px;
+    height: 74px;
+    background: var(--gray);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 11px;
+}
+
+.containerProItem .photoProfile img{
+    width: 58px;
+    height: 58px;
+    border-radius: 50px;
+    margin: 0 1rem;
+}
+
+.containerProItem h2 {
+    font-size: 18px;
+}
+
+.containerProItem h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+@media screen and (max-width: 900px) {
+    .containerProItem {
+      width: 40em;
+    }
+}
+@media screen and (max-width: 600px) {
+    .containerProItem {
+      width: 30em;
+    }
+}
+@media screen and (max-width: 480px) {
+    .containerProItem {
+      width: 25em;
+      margin-left: 6em;
+    }
+}

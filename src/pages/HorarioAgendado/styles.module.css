@@ -1,0 +1,104 @@
+.containerHorarioAgendado main {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.containerHorarioAgendado main section h1{
+    font-size: 36px;
+}
+
+.containerHorarioAgendado main section > p{
+    font-size: 16px;
+    color: #9873D5;
+}
+
+.containerHorarioAgendado main section span{
+    color: #000;
+}
+
+.now {
+    margin-top: 2.1rem;
+}
+
+.now h2 {
+    font-size: 20px;
+    color: #545454;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.now > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 640px;
+    height: 112px;
+    background: var(--color-secondary-80);
+    border-radius: 10px;
+}
+
+.now .profile {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.now .photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 1.5rem;
+}
+
+.now .photo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.now > div p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.now > div span {
+    font-size: 20px;
+    margin-right: 2rem;
+
+}
+
+.now .horarioMarcado {
+    display: flex;
+    align-items: center;
+}
+
+.now .horarioMarcado img{
+    margin-right: 0.5rem;
+}
+
+
+.after {
+    margin-top: 4rem;
+}
+
+.after > div {
+    margin-top: 2rem;
+}
+
+.after div > h2 {
+    position: relative;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.after h2 span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #3E3B47;
+} 

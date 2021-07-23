@@ -1,0 +1,48 @@
+.Faq {
+width: 85%;
+height: 92px;
+left: 56px;
+top: 117px;
+background: #F5D0DB;
+border-radius: 12px;
+display: flex;
+flex-direction: column;
+margin-bottom: 1em;
+
+  width: 1104px;
+  height: 92px;
+  left: 56px;
+  top: 117px;
+  background: var(--color-secondary-80);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+
+}
+
+.Faq h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 115.69%;
+  letter-spacing: 0.06em;
+  color: var(--black);
+  max-width: 95%;
+  margin-left: 1.5em;
+  margin-top: 8px;
+}
+
+.Faq p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 115.69%;
+  letter-spacing: 0.06em;
+  color: var(--black);
+  max-width: 95%;
+  margin-top: 0.8em;
+  margin-left: 2.2em;
+}

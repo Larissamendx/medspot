@@ -1,0 +1,149 @@
+.containerDadosPessoais {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerDadosPessoais .back {
+  cursor: pointer;
+  position: absolute;
+  align-self: flex-start;
+}
+
+.containerDadosPessoais .containerComprovante {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.containerDadosPessoais input:not(input[type="checkbox"]),
+.containerDadosPessoais label.comprovante {
+  width: 660px;
+  height: 54px;
+  margin-top: 0.8rem;
+  padding-left: 2.5rem;
+  background: var(--gray);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 27px;
+}
+
+.containerDadosPessoais input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.containerDadosPessoais input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.containerDadosPessoais label.comprovante {
+  display: flex;
+  align-items: center;
+  font-size: 13.333px;
+  color: #808080;
+  cursor: pointer;
+}
+
+.containerDadosPessoais input[type="file"] {
+  display: none;
+}
+
+.containerDadosPessoais label > div {
+  margin: auto;
+}
+
+.containerDadosPessoais label,
+.containerDadosPessoais .meioPagamento {
+  margin-top: 2rem;
+  align-self: start;
+}
+
+.containerDadosPessoais label.btn {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.containerDadosPessoais button {
+  width: 104px;
+  height: 53px;
+  font-size: 1rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.containerDadosPessoais .pagamento {
+  display: flex;
+}
+
+.containerDadosPessoais .checkbox {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  background: var(--gray);
+  margin-right: 2rem;
+}
+
+.containerDadosPessoais .checkbox label {
+  margin: 0 5px 0;
+  align-self: center;
+  font-weight: 400;
+}
+
+.containerDadosPessoais > button, 
+.containerDadosPessoais .checkbox {
+  width: 191px;
+  height: 54px;
+  border-radius: 27px;
+  font-size: 1rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 2rem;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.containerDadosPessoais > button:hover {
+  background: var(--gray-light-dark);
+}
+
+.containerDadosPessoais button.btnLeft,
+.containerDadosPessoais button.btnLeftActive {
+  border-radius: 27px 0 0 27px;
+  border-right: 1px solid var(--text);
+}
+
+.containerDadosPessoais button.btnLeftActive,
+.containerDadosPessoais button.btnRightActive {
+  background: var(--gray-light-dark);
+  box-shadow: none;
+}
+
+.containerDadosPessoais button.btnRight,
+.containerDadosPessoais button.btnRightActive {
+  border-radius: 0 27px 27px 0;
+}
+
+/* RESPONSIVO */
+
+@media screen and (max-width: 760px) {
+  .containerDadosPessoais {
+    margin: 0;
+  }
+  .containerDadosPessoais .back {
+    position: relative;
+  }
+  .containerDadosPessoais form {
+    width: 90%;
+  }
+
+  .containerDadosPessoais input,
+  .containerDadosPessoais .inputWithIcon,
+  .containerDadosPessoais label,
+  .containerDadosPessoais label.comprovante {
+    width: 100%;
+  }
+}

@@ -1,0 +1,54 @@
+.containerConsultaItem {
+  width: 1075px;
+  height: 77px;
+  left: 56px;
+  top: 117px;
+  background: var(--color-secondary-80);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.containerConsultaItem .profile {
+  display: flex;
+  align-items: center;
+}
+
+.containerConsultaItem .photoProfile img{
+  width: 58px;
+  height: 58px;
+  border-radius: 50px;
+  margin: 0 1rem;
+}
+.containerConsultaItem h2,
+.containerConsultaItem span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.containerConsultaItem h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.containerConsultaItem .hour {
+  margin-right: 5rem;
+}
+@media screen and (max-width: 1075px) {
+  .containerConsultaItem {
+    width: 48em;
+  }
+}
+@media screen and (max-width: 780px) {
+  .containerConsultaItem {
+    width: 35em;
+  }
+}
+@media screen and (max-width: 570px) {
+  .containerConsultaItem {
+    width: 28em;
+    margin-left: 4em;
+  }
+}
